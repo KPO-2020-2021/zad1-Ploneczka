@@ -121,11 +121,11 @@ int IloscWielkichLiter(char *Tekst)
   return Ilosc;
 }
 
-
+/*Aby program dzialal porpawnie nalezy zamienic char *Napis na char napis */
 
 int main()
 {
-  char *Napis = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
+  char Napis[] = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
   int IloscSpacji;
   int DlugoscSlowaXXX;
   int IloscMaLiter = 0;
