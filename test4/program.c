@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-
-double Dodaj();
+/* Dla jezyka C caly program wyswietla sie poprawnie, a dla jezyka c++ trzeba dodac typy danych do deklaracji funkcji */
+double Dodaj(double, double);
 
 
 int main( )
