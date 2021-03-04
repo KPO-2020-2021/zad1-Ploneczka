@@ -11,7 +11,7 @@ struct TrojmianKw {
 
 typedef struct TrojmianKw  TrojmianKw;
 
-
+/* W jezyku C nalezy zlinkowac biblioteke matematyczna za pomoca -lm, natomiast w C++ skompilowalo sie porpawnie */
 
 int main() {
   TrojmianKw   TKw;
