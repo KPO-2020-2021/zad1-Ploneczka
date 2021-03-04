@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-
-extern const double PI;
-extern const double E;
+/* Dla jezyka C program skompilowal sie poprawnie(bo extern dziala poprawnie), natomiast dla jezyka C++ ukazuje nie zdefiniowane wartosc "PI" oraz "E" */
+static const double PI;
+static const double E;
 
 
 int main()
